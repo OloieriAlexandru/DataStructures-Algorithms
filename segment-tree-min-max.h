@@ -3,7 +3,7 @@
 #include <vector>
 #include <limits>
 
-// https://infoarena.ro/job_detail/2443984?action=view-source
+// https://infoarena.ro/job_detail/2443989?action=view-source
 
 class segmentTreeMinMax
 {
@@ -14,7 +14,8 @@ private:
 #define ma(a,b) (a)>(b)?(a):(b)
 #define swp(a,b) (a)^=(b),(b)^=(a),(a)^=(b)
 #define uint unsigned int
-#define SEG_TREE_INVALID_INDEX 2147483647
+#define SEG_TREE_ERROR 2147483647
+#define SEG_TREE_CHECK_CREATED(ret) if (!created) return ret
     static const int intMin = std::numeric_limits<int>::min();
     static const int intMax = std::numeric_limits<int>::max();
     struct segTreeNode
@@ -86,13 +87,10 @@ private:
         updateNode(node);
     }
 public:
-    segmentTreeMinMax()
-    {
-        tree = nullptr;
-        created = false;
-    }
+    segmentTreeMinMax():tree(nullptr), created(false) { }
     bool create(uint sz)
     {
+        if (created) return false;
         tree = new segTreeNode[sz * 4 + 4];
         if (tree == nullptr) return false;
         created = true;
@@ -101,6 +99,7 @@ public:
     }
     bool create(int a[], uint sz)
     {
+        if (created) return false;
         tree = new segTreeNode[sz * 4 + 4];
         if (tree == nullptr) return false;
         created = true;
@@ -110,22 +109,27 @@ public:
     }
     bool update(uint poz, int val)
     {
+        SEG_TREE_CHECK_CREATED(SEG_TREE_ERROR);
         if (poz > n) return false;
         update(1,1,n,poz,val);
         return true;
     }
     int queryMin(uint l, uint r)
     {
+        SEG_TREE_CHECK_CREATED(SEG_TREE_ERROR);
         if (l > r) swp(l,r);
-        if (r > n) return SEG_TREE_INVALID_INDEX;
+        if (r > n) return SEG_TREE_ERROR;
         return queryMin(1,1,n,l,r);
     }
     int queryMax(uint l, uint r)
     {
+        SEG_TREE_CHECK_CREATED(SEG_TREE_ERROR);
         if (l > r) swp(l,r);
-        if (r > n) return SEG_TREE_INVALID_INDEX;
+        if (r > n) return SEG_TREE_ERROR;
         return queryMax(1,1,n,l,r);
     }
+#undef left
+#undef right
 };
 
 #endif
