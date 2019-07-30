@@ -1,9 +1,10 @@
 # depslib dependency file v1.0
-1564435793 source:d:\github\data structures\main.cpp
+1564523670 source:d:\github\data structures\main.cpp
 	<iostream>
 	"segment-tree-min-max.h"
 	"disjoint-set-union.h"
 	"fenwick-tree.h"
+	"shortest-path-dijkstra.h"
 
 1564436412 d:\github\data structures\segment-tree-min-max.h
 	<vector>
@@ -12,5 +13,10 @@
 1564435895 d:\github\data structures\disjoint-set-union.h
 	<cstring>
 
-1564436421 d:\github\data structures\fenwick-tree.h
+1564436890 d:\github\data structures\fenwick-tree.h
+
+1564523959 d:\github\data structures\shortest-path-dijkstra.h
+	<vector>
+	<queue>
+	<functional>
 
