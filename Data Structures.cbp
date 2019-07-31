@@ -32,11 +32,12 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="disjoint-set-union.h" />
-		<Unit filename="fenwick-tree.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="segment-tree-min-max.h" />
-		<Unit filename="shortest-path-dijkstra.h" />
+		<Unit filename="src ds-a/disjoint-set-union.h" />
+		<Unit filename="src ds-a/fenwick-tree.h" />
+		<Unit filename="src ds-a/minimum-spanning-tree-kruskal.h" />
+		<Unit filename="src ds-a/segment-tree-min-max.h" />
+		<Unit filename="src ds-a/shortest-path-dijkstra.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
