@@ -20,7 +20,7 @@ private:
     uint n;
     void prepareUnionFind()
     {
-        for (uint i=0;i<n;++i)
+        for (uint i=0; i<n; ++i)
             father[i] = height[i] = 0;
     }
     void unionn(uint x, uint y)
@@ -63,6 +63,7 @@ public:
     }
     int computeMinimumSpanningTree(std::vector<std::pair<uint,uint>> &ans)
     {
+        MST_KRUSKAL_CHECK_CREATED(MST_KRUSKAL_ERROR);
         int mst = 0;
         uint chosen = 0, c1, c2;
         ans.clear();

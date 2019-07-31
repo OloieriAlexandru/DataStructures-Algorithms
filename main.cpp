@@ -4,6 +4,7 @@
 #include "src ds-a/fenwick-tree.h"
 #include "src ds-a/shortest-path-dijkstra.h"
 #include "src ds-a/minimum-spanning-tree-kruskal.h"
+#include "src ds-a/strongly-connected-components-kosaraju.h"
 
 using namespace std;
 
