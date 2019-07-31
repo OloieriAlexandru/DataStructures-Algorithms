@@ -36,6 +36,7 @@
 		<Unit filename="fenwick-tree.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="segment-tree-min-max.h" />
+		<Unit filename="shortest-path-dijkstra.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
