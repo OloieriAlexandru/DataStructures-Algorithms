@@ -1,10 +1,13 @@
 # depslib dependency file v1.0
-1564523670 source:d:\github\data structures\main.cpp
+1564587597 source:d:\github\data structures\main.cpp
 	<iostream>
-	"segment-tree-min-max.h"
-	"disjoint-set-union.h"
-	"fenwick-tree.h"
-	"shortest-path-dijkstra.h"
+	"src ds-a/segment-tree-min-max.h"
+	"src ds-a/disjoint-set-union.h"
+	"src ds-a/fenwick-tree.h"
+	"src ds-a/shortest-path-dijkstra.h"
+	"src ds-a/minimum-spanning-tree-kruskal.h"
+	"src ds-a/strongly-connected-components-kosaraju.h"
+	"src ds-a/maximum-bipartite-graph-matching.h"
 
 1564436412 d:\github\data structures\segment-tree-min-max.h
 	<vector>
@@ -19,4 +22,30 @@
 	<vector>
 	<queue>
 	<functional>
+
+1564436412 d:\github\data structures\src ds-a\segment-tree-min-max.h
+	<vector>
+	<limits>
+
+1564435895 d:\github\data structures\src ds-a\disjoint-set-union.h
+	<cstring>
+
+1564436890 d:\github\data structures\src ds-a\fenwick-tree.h
+
+1564524929 d:\github\data structures\src ds-a\shortest-path-dijkstra.h
+	<vector>
+	<queue>
+	<functional>
+
+1564585565 d:\github\data structures\src ds-a\minimum-spanning-tree-kruskal.h
+	<utility>
+	<queue>
+	<vector>
+
+1564587084 d:\github\data structures\src ds-a\strongly-connected-components-kosaraju.h
+	<vector>
+
+1564588428 d:\github\data structures\src ds-a\maximum-bipartite-graph-matching.h
+	<vector>
+	<utility>
 
