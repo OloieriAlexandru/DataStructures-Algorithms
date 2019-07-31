@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1564587597 source:d:\github\data structures\main.cpp
+1564589721 source:d:\github\data structures\main.cpp
 	<iostream>
 	"src ds-a/segment-tree-min-max.h"
 	"src ds-a/disjoint-set-union.h"
@@ -8,6 +8,7 @@
 	"src ds-a/minimum-spanning-tree-kruskal.h"
 	"src ds-a/strongly-connected-components-kosaraju.h"
 	"src ds-a/maximum-bipartite-graph-matching.h"
+	"src ds-a/range-minimum-query.h"
 
 1564436412 d:\github\data structures\segment-tree-min-max.h
 	<vector>
@@ -45,7 +46,9 @@
 1564587084 d:\github\data structures\src ds-a\strongly-connected-components-kosaraju.h
 	<vector>
 
-1564588428 d:\github\data structures\src ds-a\maximum-bipartite-graph-matching.h
+1564589289 d:\github\data structures\src ds-a\maximum-bipartite-graph-matching.h
 	<vector>
 	<utility>
+
+1564590434 d:\github\data structures\src ds-a\range-minimum-query.h
 

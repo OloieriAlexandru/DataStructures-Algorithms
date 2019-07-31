@@ -6,6 +6,7 @@
 #include "src ds-a/minimum-spanning-tree-kruskal.h"
 #include "src ds-a/strongly-connected-components-kosaraju.h"
 #include "src ds-a/maximum-bipartite-graph-matching.h"
+#include "src ds-a/range-minimum-query.h"
 using namespace std;
 
 int main()
