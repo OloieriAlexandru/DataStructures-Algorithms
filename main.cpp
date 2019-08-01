@@ -7,6 +7,7 @@
 #include "src ds-a/strongly-connected-components-kosaraju.h"
 #include "src ds-a/maximum-bipartite-graph-matching.h"
 #include "src ds-a/range-minimum-query.h"
+#include "src ds-a/graph-dfs-bfs.h"
 using namespace std;
 
 int main()
