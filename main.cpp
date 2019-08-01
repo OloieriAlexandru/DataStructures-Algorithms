@@ -8,6 +8,7 @@
 #include "src ds-a/maximum-bipartite-graph-matching.h"
 #include "src ds-a/range-minimum-query.h"
 #include "src ds-a/graph-dfs-bfs.h"
+#include "src ds-a/tree-diameter.h"
 using namespace std;
 
 int main()
