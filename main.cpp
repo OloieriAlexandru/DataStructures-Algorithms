@@ -9,6 +9,7 @@
 #include "src ds-a/range-minimum-query.h"
 #include "src ds-a/graph-dfs-bfs.h"
 #include "src ds-a/tree-diameter.h"
+#include "src ds-a/shortest-path-bellman-ford.h"
 using namespace std;
 
 int main()
