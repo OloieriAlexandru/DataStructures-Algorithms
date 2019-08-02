@@ -10,6 +10,7 @@
 #include "src ds-a/graph-dfs-bfs.h"
 #include "src ds-a/tree-diameter.h"
 #include "src ds-a/shortest-path-bellman-ford.h"
+#include "src ds-a/longest-common-subsequence.h"
 using namespace std;
 
 int main()

@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1564589721 source:d:\github\data structures\main.cpp
+1564751822 source:d:\github\data structures\main.cpp
 	<iostream>
 	"src ds-a/segment-tree-min-max.h"
 	"src ds-a/disjoint-set-union.h"
@@ -9,6 +9,10 @@
 	"src ds-a/strongly-connected-components-kosaraju.h"
 	"src ds-a/maximum-bipartite-graph-matching.h"
 	"src ds-a/range-minimum-query.h"
+	"src ds-a/graph-dfs-bfs.h"
+	"src ds-a/tree-diameter.h"
+	"src ds-a/shortest-path-bellman-ford.h"
+	"src ds-a/longest-common-subsequence.h"
 
 1564436412 d:\github\data structures\segment-tree-min-max.h
 	<vector>
@@ -33,10 +37,11 @@
 
 1564436890 d:\github\data structures\src ds-a\fenwick-tree.h
 
-1564524929 d:\github\data structures\src ds-a\shortest-path-dijkstra.h
+1564750405 d:\github\data structures\src ds-a\shortest-path-dijkstra.h
 	<vector>
 	<queue>
 	<functional>
+	<utility>
 
 1564585565 d:\github\data structures\src ds-a\minimum-spanning-tree-kruskal.h
 	<utility>
@@ -50,5 +55,21 @@
 	<vector>
 	<utility>
 
-1564590434 d:\github\data structures\src ds-a\range-minimum-query.h
+1564591637 d:\github\data structures\src ds-a\range-minimum-query.h
+
+1564753507 d:\github\data structures\src ds-a\graph-dfs-bfs.h
+	<vector>
+	<queue>
+	<utility>
+
+1564693667 d:\github\data structures\src ds-a\tree-diameter.h
+	<vector>
+
+1564750426 d:\github\data structures\src ds-a\shortest-path-bellman-ford.h
+	<vector>
+	<queue>
+	<utility>
+
+1564753500 d:\github\data structures\src ds-a\longest-common-subsequence.h
+	<vector>
 

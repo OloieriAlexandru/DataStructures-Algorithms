@@ -57,7 +57,7 @@ public:
     bool create(uint sz, bool uni = false)
     {
         if (created) return false;
-        g = new vector<uint>[sz + 1];
+        g = new std::vector<uint>[sz + 1];
         if (g == nullptr) return false;
         visited = new bool[sz + 1];
         if (visited == nullptr)
