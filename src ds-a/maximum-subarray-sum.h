@@ -1,16 +1,17 @@
-#ifndef MAXIMUM_SUBSEQUENCE_SUM_H
-#define MAXIMUM_SUBSEQUENCE_SUM_H
+#ifndef MAXIMUM_SUBARRAY_SUM_H
+#define MAXIMUM_SUBARRAY_SUM_H
 
+// https://infoarena.ro/job_detail/2445556?action=view-source -> TLE because the problem has to be solved during reading of the array
 
 template<class T, class A=T>
-class maximumSubsequenceSum
+class maximumSubarraySum
 {
 private:
 #define uint unsigned int
 #define maxx(a,b) (a)>(b)?(a):(b)
     std::vector<T>v;
 public:
-    maximumSubsequenceSum() {}
+    maximumSubarraySum() {}
     void reserve(uint n)
     {
         v.reserve(n);
@@ -42,3 +43,4 @@ public:
 };
 
 #endif
+

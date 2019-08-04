@@ -11,7 +11,7 @@
 #include "src ds-a/tree-diameter.h"
 #include "src ds-a/shortest-path-bellman-ford.h"
 #include "src ds-a/longest-common-subsequence.h"
-#include "src ds-a/maximum-subsequence-sum.h"
+#include "src ds-a/maximum-subarray-sum.h"
 using namespace std;
 
 int main()
