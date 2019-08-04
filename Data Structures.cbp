@@ -36,10 +36,12 @@
 		<Unit filename="src ds-a/disjoint-set-union.h" />
 		<Unit filename="src ds-a/fenwick-tree.h" />
 		<Unit filename="src ds-a/graph-dfs-bfs.h" />
+		<Unit filename="src ds-a/longest-common-subsequence.h" />
 		<Unit filename="src ds-a/maximum-bipartite-graph-matching.h" />
 		<Unit filename="src ds-a/minimum-spanning-tree-kruskal.h" />
 		<Unit filename="src ds-a/range-minimum-query.h" />
 		<Unit filename="src ds-a/segment-tree-min-max.h" />
+		<Unit filename="src ds-a/shortest-path-bellman-ford.h" />
 		<Unit filename="src ds-a/shortest-path-dijkstra.h" />
 		<Unit filename="src ds-a/strongly-connected-components-kosaraju.h" />
 		<Unit filename="src ds-a/tree-diameter.h" />
