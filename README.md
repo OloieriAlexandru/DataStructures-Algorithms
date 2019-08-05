@@ -8,6 +8,7 @@ My implementation for different data structures (C++ classes)
 * Kruskal's Minimum Spanning Tree Algorithm
 * Bfs, Dfs
 * Maximum Bipartite Matching
+* Topological Sorting
 
 ## Tree algorithms:
 * Diameter of a tree
