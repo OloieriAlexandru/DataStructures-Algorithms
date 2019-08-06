@@ -24,7 +24,7 @@ My implementation for different data structures (C++ classes)
 
 ## Other:
 * Range Minimum Query using Sparse Table
-
+* Majority Element
 
 
 ### To be added:
