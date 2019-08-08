@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1564751822 source:d:\github\data structures\main.cpp
+1565300379 source:d:\github\data structures\main.cpp
 	<iostream>
 	"src ds-a/segment-tree-min-max.h"
 	"src ds-a/disjoint-set-union.h"
@@ -13,6 +13,10 @@
 	"src ds-a/tree-diameter.h"
 	"src ds-a/shortest-path-bellman-ford.h"
 	"src ds-a/longest-common-subsequence.h"
+	"src ds-a/maximum-subarray-sum.h"
+	"src ds-a/graph-topological-sort.h"
+	"src ds-a/majority-element.h"
+	"src ds-a/closest-points-in-a-plane.h"
 
 1564436412 d:\github\data structures\segment-tree-min-max.h
 	<vector>
@@ -72,4 +76,17 @@
 
 1564753500 d:\github\data structures\src ds-a\longest-common-subsequence.h
 	<vector>
+
+1564929507 d:\github\data structures\src ds-a\maximum-subarray-sum.h
+
+1565038735 d:\github\data structures\src ds-a\graph-topological-sort.h
+	<vector>
+	<queue>
+
+1565114342 d:\github\data structures\src ds-a\majority-element.h
+	<vector>
+
+1565300921 d:\github\data structures\src ds-a\closest-points-in-a-plane.h
+	<vector>
+	<utility>
 

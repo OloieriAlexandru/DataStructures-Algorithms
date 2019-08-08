@@ -80,6 +80,7 @@ public:
             return v[rmq[l][logg2]];
         return v[rmq[l+add][logg2]];
     }
+    #undef swp
 };
 
 #endif

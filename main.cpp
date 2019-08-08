@@ -14,6 +14,7 @@
 #include "src ds-a/maximum-subarray-sum.h"
 #include "src ds-a/graph-topological-sort.h"
 #include "src ds-a/majority-element.h"
+#include "src ds-a/closest-points-in-a-plane.h"
 using namespace std;
 
 int main()
