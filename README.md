@@ -22,6 +22,9 @@ My implementation for different data structures (C++ classes)
 * Longest Common Subsequence
 * Maximum Subarray Sum
 
+# Geometry:
+* Closest points in a plane
+
 ## Other:
 * Range Minimum Query using Sparse Table
 * Majority Element
@@ -34,4 +37,3 @@ My implementation for different data structures (C++ classes)
 * Longest Increasing Subsequence
 * Mo's algorithm
 * Convex hull
-* Closest pairs of points
