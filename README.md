@@ -22,7 +22,7 @@ My implementation for different data structures (C++ classes)
 * Longest Common Subsequence
 * Maximum Subarray Sum
 
-# Geometry:
+## Geometry:
 * Closest points in a plane
 
 ## Other:
