@@ -16,13 +16,13 @@ private:
     uint n;
     void updatee(uint poz, int add)
     {
-        for (;poz<=n;poz+=lsb(poz))
+        for (; poz<=n; poz+=lsb(poz))
             tree[poz]+=add;
     }
     int queryy(uint poz)
     {
         int ret=0;
-        for (;poz;poz-=lsb(poz))
+        for (; poz; poz-=lsb(poz))
             ret+=tree[poz];
         return ret;
     }
@@ -34,7 +34,7 @@ public:
         tree = new int[sz + 2];
         if (tree == nullptr) return false;
         n = sz + 2;
-        for (uint i=0;i<n;++i) tree[i] = 0;
+        for (uint i=0; i<n; ++i) tree[i] = 0;
         created = true;
         return true;
     }
@@ -58,6 +58,7 @@ public:
         if (right >= n) return BIT_ERROR;
         return queryy(right) - queryy(left-1);
     }
+#undef swp
 };
 
 #endif

@@ -1,6 +1,5 @@
 # depslib dependency file v1.0
-1565300379 source:d:\github\data structures\main.cpp
-	<iostream>
+1565473251 source:d:\github\data structures\main.cpp
 	"src ds-a/segment-tree-min-max.h"
 	"src ds-a/disjoint-set-union.h"
 	"src ds-a/fenwick-tree.h"
@@ -17,6 +16,7 @@
 	"src ds-a/graph-topological-sort.h"
 	"src ds-a/majority-element.h"
 	"src ds-a/closest-points-in-a-plane.h"
+	"src ds-a/string-matching-rabin-karp.h"
 
 1564436412 d:\github\data structures\segment-tree-min-max.h
 	<vector>
@@ -39,7 +39,7 @@
 1564435895 d:\github\data structures\src ds-a\disjoint-set-union.h
 	<cstring>
 
-1564436890 d:\github\data structures\src ds-a\fenwick-tree.h
+1565473305 d:\github\data structures\src ds-a\fenwick-tree.h
 
 1564750405 d:\github\data structures\src ds-a\shortest-path-dijkstra.h
 	<vector>
@@ -59,7 +59,7 @@
 	<vector>
 	<utility>
 
-1564591637 d:\github\data structures\src ds-a\range-minimum-query.h
+1565300932 d:\github\data structures\src ds-a\range-minimum-query.h
 
 1564753507 d:\github\data structures\src ds-a\graph-dfs-bfs.h
 	<vector>
@@ -89,4 +89,7 @@
 1565300921 d:\github\data structures\src ds-a\closest-points-in-a-plane.h
 	<vector>
 	<utility>
+
+1565473032 d:\github\data structures\src ds-a\string-matching-rabin-karp.h
+	<string>
 

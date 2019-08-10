@@ -1,4 +1,3 @@
-#include <iostream>
 #include "src ds-a/segment-tree-min-max.h"
 #include "src ds-a/disjoint-set-union.h"
 #include "src ds-a/fenwick-tree.h"
@@ -15,6 +14,7 @@
 #include "src ds-a/graph-topological-sort.h"
 #include "src ds-a/majority-element.h"
 #include "src ds-a/closest-points-in-a-plane.h"
+#include "src ds-a/string-matching-rabin-karp.h"
 using namespace std;
 
 int main()

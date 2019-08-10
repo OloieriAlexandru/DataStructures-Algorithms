@@ -28,7 +28,7 @@ My implementation for different data structures (C++ classes)
 ## Other:
 * Range Minimum Query using Sparse Table
 * Majority Element
-
+* Rabin Karp (String Matching)
 
 ### To be added:
 * LCA
