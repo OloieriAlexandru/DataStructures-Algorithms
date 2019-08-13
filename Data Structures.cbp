@@ -47,6 +47,7 @@
 		<Unit filename="src ds-a/segment-tree-min-max.h" />
 		<Unit filename="src ds-a/shortest-path-bellman-ford.h" />
 		<Unit filename="src ds-a/shortest-path-dijkstra.h" />
+		<Unit filename="src ds-a/string-matching-rabin-karp.h" />
 		<Unit filename="src ds-a/strongly-connected-components-kosaraju.h" />
 		<Unit filename="src ds-a/tree-diameter.h" />
 		<Extensions>

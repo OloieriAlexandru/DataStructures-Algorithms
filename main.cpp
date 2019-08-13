@@ -15,6 +15,7 @@
 #include "src ds-a/majority-element.h"
 #include "src ds-a/closest-points-in-a-plane.h"
 #include "src ds-a/string-matching-rabin-karp.h"
+#include "src ds-a/expression-evaluation.h"
 using namespace std;
 
 int main()
