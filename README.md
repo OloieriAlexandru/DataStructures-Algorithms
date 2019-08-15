@@ -23,7 +23,8 @@ My implementation for different data structures (C++ classes)
 * Maximum Subarray Sum
 
 ## Geometry:
-* Closest points in a plane
+* Closest Points in a Plane
+* Convex Hull
 
 ## Other:
 * Range Minimum Query using Sparse Table
@@ -36,5 +37,4 @@ My implementation for different data structures (C++ classes)
 * Matrix exponentiation
 * Math algorithms
 * Longest Increasing Subsequence
-* Mo's algorithm
-* Convex hull
+* Mo's algorithm 
