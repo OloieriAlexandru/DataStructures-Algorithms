@@ -1,5 +1,5 @@
 # Data-Structures
-My implementation for different data structures (C++ classes)
+My implementation for different data structures and algorithms (C++ classes)
 
 ## Graph algorithms:
 * Dijkstra's Shortest Path Algorithm
@@ -31,10 +31,10 @@ My implementation for different data structures (C++ classes)
 * Majority Element
 * Rabin Karp (String Matching)
 * Expression Evaluation
+* Matrix Exponentiation
 
 ### To be added:
-* LCA
-* Matrix exponentiation
+* LCA 
 * Math algorithms
 * Longest Increasing Subsequence
 * Mo's algorithm 

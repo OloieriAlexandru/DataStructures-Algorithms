@@ -17,6 +17,7 @@
 #include "src ds-a/expression-evaluation.h"
 #include "src ds-a/string-matching-rabin-karp.h"
 #include "src ds-a/convex-hull.h"
+#include "src ds-a/matrix-exponentiation.h"
 using namespace std;
 
 int main()
