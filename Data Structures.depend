@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1565733009 source:d:\github\data structures\main.cpp
+1567008998 source:d:\github\data structures\main.cpp
 	"src ds-a/segment-tree-min-max.h"
 	"src ds-a/disjoint-set-union.h"
 	"src ds-a/fenwick-tree.h"
@@ -16,8 +16,11 @@
 	"src ds-a/graph-topological-sort.h"
 	"src ds-a/majority-element.h"
 	"src ds-a/closest-points-in-a-plane.h"
-	"src ds-a/string-matching-rabin-karp.h"
 	"src ds-a/expression-evaluation.h"
+	"src ds-a/string-matching-rabin-karp.h"
+	"src ds-a/convex-hull.h"
+	"src ds-a/matrix-exponentiation.h"
+	"src ds-a/floyd-warshall.h"
 
 1564436412 d:\github\data structures\segment-tree-min-max.h
 	<vector>
@@ -94,5 +97,16 @@
 1565473032 d:\github\data structures\src ds-a\string-matching-rabin-karp.h
 	<string>
 
-1565732992 d:\github\data structures\src ds-a\expression-evaluation.h
+1565733460 d:\github\data structures\src ds-a\expression-evaluation.h
+
+1565883750 d:\github\data structures\src ds-a\convex-hull.h
+	<vector>
+	<algorithm>
+	<stack>
+
+1566493793 d:\github\data structures\src ds-a\matrix-exponentiation.h
+	<vector>
+
+1567009129 d:\github\data structures\src ds-a\floyd-warshall.h
+	<vector>
 

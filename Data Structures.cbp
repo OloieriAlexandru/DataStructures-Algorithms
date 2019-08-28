@@ -38,6 +38,7 @@
 		<Unit filename="src ds-a/disjoint-set-union.h" />
 		<Unit filename="src ds-a/expression-evaluation.h" />
 		<Unit filename="src ds-a/fenwick-tree.h" />
+		<Unit filename="src ds-a/floyd-warshall.h" />
 		<Unit filename="src ds-a/graph-dfs-bfs.h" />
 		<Unit filename="src ds-a/graph-topological-sort.h" />
 		<Unit filename="src ds-a/longest-common-subsequence.h" />
