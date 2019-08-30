@@ -30,19 +30,19 @@ public:
         if (created) return false;
         v = new uint[sz + 1];
         if (v == nullptr) return false;
-        for (uint i=0;i<=sz;++i)
+        for (uint i=0; i<=sz; ++i)
             v[i] = a[i];
         rmq = new uint*[sz + 1];
         if (rmq == nullptr) return false;
         n = sz + 1;
         uint l2 = log2(n);
-        for (uint i=0;i<n;++i)
+        for (uint i=0; i<n; ++i)
         {
             rmq[i] = nullptr;
             rmq[i] = new uint[l2];
             if (rmq[i] == nullptr)
             {
-                for (uint j=0;j<i;++j)
+                for (uint j=0; j<i; ++j)
                 {
                     delete[] rmq[j];
                 }
@@ -50,13 +50,13 @@ public:
                 return false;
             }
         }
-        for (uint i=1;i<n;++i)
+        for (uint i=1; i<n; ++i)
             rmq[i][0] = i;
         uint shf, secshf;
-        for (uint j=1;(1u<<j)<n;++j)
+        for (uint j=1; (1u<<j)<n; ++j)
         {
             shf = 1u<<j;
-            for (uint i=1;i+shf-1<n;++i)
+            for (uint i=1; i+shf-1<n; ++i)
             {
                 secshf = 1<<(j-1);
                 if (a[rmq[i][j-1]] < a[rmq[i+secshf][j-1]])
@@ -80,7 +80,19 @@ public:
             return v[rmq[l][logg2]];
         return v[rmq[l+add][logg2]];
     }
-    #undef swp
+    uint queryPoz(uint l, uint r)
+    {
+        RMQ_CHECK_CREATED(RMQ_ERROR);
+        if (l > r) swp(l,r);
+        if (r >= n) return RMQ_ERROR;
+        dist = r - l + 1;
+        logg2 = log2(dist);
+        add = dist - (1u<<logg2);
+        if (v[rmq[l][logg2]] < v[rmq[l+add][logg2]])
+            return rmq[l][logg2];
+        return rmq[l+add][logg2];
+    }
+#undef swp
 };
 
 #endif

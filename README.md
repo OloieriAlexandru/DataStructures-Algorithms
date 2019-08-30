@@ -11,7 +11,8 @@ My implementation for different data structures and algorithms (C++ classes)
 * Topological Sorting
 
 ## Tree algorithms:
-* Diameter of a tree
+* Diameter of a Tree
+* Lowest Common Ancestor
 
 ## Data structures:
 * Min-Max Segment Tree
@@ -34,7 +35,6 @@ My implementation for different data structures and algorithms (C++ classes)
 * Matrix Exponentiation
 
 ### To be added:
-* LCA 
 * Math algorithms
 * Longest Increasing Subsequence
 * Mo's algorithm 

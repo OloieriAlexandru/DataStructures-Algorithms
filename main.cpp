@@ -19,6 +19,7 @@
 #include "src ds-a/convex-hull.h"
 #include "src ds-a/matrix-exponentiation.h"
 #include "src ds-a/floyd-warshall.h"
+#include "src ds-a/lowest-common-ancestor.h"
 using namespace std;
 
 int main()

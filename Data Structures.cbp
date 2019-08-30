@@ -42,6 +42,7 @@
 		<Unit filename="src ds-a/graph-dfs-bfs.h" />
 		<Unit filename="src ds-a/graph-topological-sort.h" />
 		<Unit filename="src ds-a/longest-common-subsequence.h" />
+		<Unit filename="src ds-a/lowest-common-ancestor.h" />
 		<Unit filename="src ds-a/majority-element.h" />
 		<Unit filename="src ds-a/matrix-exponentiation.h" />
 		<Unit filename="src ds-a/maximum-bipartite-graph-matching.h" />

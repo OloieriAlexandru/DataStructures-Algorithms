@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1567008998 source:d:\github\data structures\main.cpp
+1567165270 source:d:\github\data structures\main.cpp
 	"src ds-a/segment-tree-min-max.h"
 	"src ds-a/disjoint-set-union.h"
 	"src ds-a/fenwick-tree.h"
@@ -21,6 +21,7 @@
 	"src ds-a/convex-hull.h"
 	"src ds-a/matrix-exponentiation.h"
 	"src ds-a/floyd-warshall.h"
+	"src ds-a/lowest-common-ancestor.h"
 
 1564436412 d:\github\data structures\segment-tree-min-max.h
 	<vector>
@@ -63,7 +64,7 @@
 	<vector>
 	<utility>
 
-1565300932 d:\github\data structures\src ds-a\range-minimum-query.h
+1567166282 d:\github\data structures\src ds-a\range-minimum-query.h
 
 1564753507 d:\github\data structures\src ds-a\graph-dfs-bfs.h
 	<vector>
@@ -107,6 +108,10 @@
 1566493793 d:\github\data structures\src ds-a\matrix-exponentiation.h
 	<vector>
 
-1567009129 d:\github\data structures\src ds-a\floyd-warshall.h
+1567009443 d:\github\data structures\src ds-a\floyd-warshall.h
 	<vector>
+
+1567166447 d:\github\data structures\src ds-a\lowest-common-ancestor.h
+	<vector>
+	"range-minimum-query.h"
 
