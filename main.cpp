@@ -20,6 +20,7 @@
 #include "src ds-a/matrix-exponentiation.h"
 #include "src ds-a/floyd-warshall.h"
 #include "src ds-a/lowest-common-ancestor.h"
+#include "src ds-a/trie.h"
 using namespace std;
 
 int main()

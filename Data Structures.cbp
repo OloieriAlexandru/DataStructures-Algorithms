@@ -55,6 +55,7 @@
 		<Unit filename="src ds-a/string-matching-rabin-karp.h" />
 		<Unit filename="src ds-a/strongly-connected-components-kosaraju.h" />
 		<Unit filename="src ds-a/tree-diameter.h" />
+		<Unit filename="src ds-a/trie.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

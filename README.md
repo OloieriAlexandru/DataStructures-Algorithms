@@ -18,6 +18,7 @@ My implementation for different data structures and algorithms (C++ classes)
 * Min-Max Segment Tree
 * Fenwick Tree
 * Disjoint Set
+* Trie
 
 ## Dynamic Programming:
 * Longest Common Subsequence
