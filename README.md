@@ -34,8 +34,8 @@ My implementation for different data structures and algorithms (C++ classes)
 * Rabin Karp (String Matching)
 * Expression Evaluation
 * Matrix Exponentiation
+* Mo's algorithm 
 
 ### To be added:
 * Math algorithms
 * Longest Increasing Subsequence
-* Mo's algorithm 

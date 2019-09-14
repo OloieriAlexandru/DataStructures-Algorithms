@@ -21,6 +21,7 @@
 #include "src ds-a/floyd-warshall.h"
 #include "src ds-a/lowest-common-ancestor.h"
 #include "src ds-a/trie.h"
+#include "src ds-a/mo-algorithm.h"
 using namespace std;
 
 int main()
