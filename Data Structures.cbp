@@ -48,7 +48,9 @@
 		<Unit filename="src ds-a/maximum-bipartite-graph-matching.h" />
 		<Unit filename="src ds-a/maximum-subarray-sum.h" />
 		<Unit filename="src ds-a/minimum-spanning-tree-kruskal.h" />
+		<Unit filename="src ds-a/mo-algorithm.h" />
 		<Unit filename="src ds-a/range-minimum-query.h" />
+		<Unit filename="src ds-a/segment-tree-lazy-propagation.h" />
 		<Unit filename="src ds-a/segment-tree-min-max.h" />
 		<Unit filename="src ds-a/shortest-path-bellman-ford.h" />
 		<Unit filename="src ds-a/shortest-path-dijkstra.h" />

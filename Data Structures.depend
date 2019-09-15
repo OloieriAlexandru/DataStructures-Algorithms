@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1567808946 source:d:\github\data structures\main.cpp
+1568587901 source:d:\github\data structures\main.cpp
 	"src ds-a/segment-tree-min-max.h"
 	"src ds-a/disjoint-set-union.h"
 	"src ds-a/fenwick-tree.h"
@@ -23,6 +23,8 @@
 	"src ds-a/floyd-warshall.h"
 	"src ds-a/lowest-common-ancestor.h"
 	"src ds-a/trie.h"
+	"src ds-a/mo-algorithm.h"
+	"src ds-a/segment-tree-lazy-propagation.h"
 
 1564436412 d:\github\data structures\segment-tree-min-max.h
 	<vector>
@@ -117,4 +119,8 @@
 	"range-minimum-query.h"
 
 1567810606 d:\github\data structures\src ds-a\trie.h
+
+1568491258 d:\github\data structures\src ds-a\mo-algorithm.h
+
+1568589910 d:\github\data structures\src ds-a\segment-tree-lazy-propagation.h
 

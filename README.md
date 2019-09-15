@@ -15,7 +15,8 @@ My implementation for different data structures and algorithms (C++ classes)
 * Lowest Common Ancestor
 
 ## Data structures:
-* Min-Max Segment Tree
+* Segment Tree
+* Segment Tree with Lazy Propagation
 * Fenwick Tree
 * Disjoint Set
 * Trie
