@@ -3,16 +3,15 @@
 
 // https://www.spoj.com/status/DQUERY,alexoloieri/ -> 24396919
 
+#include <utility>
 class moAlgorithm
 {
 private:
 #define MO_CHECK_CREATED(ret) if (!created) return ret
 #define uint unsigned int
-#define vector std::vector
-#define pair std::pair
 #define mkp std::make_pair
 #define pb push_back
-    vector<pair<pair<uint,uint>,uint>>queries;
+    std::vector<std::pair<std::pair<uint,uint>,uint>>queries;
     uint* arr, *cnt, qCount;
     bool created;
 public:
@@ -45,13 +44,13 @@ public:
         queries.pb(mkp(mkp(x,y), qCount++));
         return true;
     }
-    bool getAnsToQueries(vector<uint>& ans)
+    bool getAnsToQueries(std::vector<uint>& ans)
     {
         MO_CHECK_CREATED(false);
         ans.clear();
         ans.resize(queries.size()+1,0);
 
-        sort(queries.begin(), queries.end(), [](pair<pair<uint,uint>,uint> a, pair<pair<uint,uint>,uint> b)
+        sort(queries.begin(), queries.end(), [](std::pair<std::pair<uint,uint>,uint> a, std::pair<std::pair<uint,uint>,uint> b)
         {
             uint v1 = a.first.first / 550;
             uint v2 = b.first.first / 550;

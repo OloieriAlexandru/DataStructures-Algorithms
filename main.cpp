@@ -23,6 +23,8 @@
 #include "src ds-a/trie.h"
 #include "src ds-a/mo-algorithm.h"
 #include "src ds-a/segment-tree-lazy-propagation.h"
+#include "src ds-a/longest-increasing-subsequence.h"
+#include "src ds-a/omath.h"
 using namespace std;
 
 int main()

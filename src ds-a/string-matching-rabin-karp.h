@@ -95,6 +95,7 @@ public:
         else
             return RABIN_KARP_NO;
     }
+    #undef mod
 };
 
 #endif

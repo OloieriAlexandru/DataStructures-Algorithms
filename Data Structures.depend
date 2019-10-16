@@ -124,3 +124,125 @@
 
 1568589910 d:\github\data structures\src ds-a\segment-tree-lazy-propagation.h
 
+1571239401 source:d:\github\datastructures-algorithms\main.cpp
+	"src ds-a/segment-tree-min-max.h"
+	"src ds-a/disjoint-set-union.h"
+	"src ds-a/fenwick-tree.h"
+	"src ds-a/shortest-path-dijkstra.h"
+	"src ds-a/minimum-spanning-tree-kruskal.h"
+	"src ds-a/strongly-connected-components-kosaraju.h"
+	"src ds-a/maximum-bipartite-graph-matching.h"
+	"src ds-a/range-minimum-query.h"
+	"src ds-a/graph-dfs-bfs.h"
+	"src ds-a/tree-diameter.h"
+	"src ds-a/shortest-path-bellman-ford.h"
+	"src ds-a/longest-common-subsequence.h"
+	"src ds-a/maximum-subarray-sum.h"
+	"src ds-a/graph-topological-sort.h"
+	"src ds-a/majority-element.h"
+	"src ds-a/closest-points-in-a-plane.h"
+	"src ds-a/expression-evaluation.h"
+	"src ds-a/string-matching-rabin-karp.h"
+	"src ds-a/convex-hull.h"
+	"src ds-a/matrix-exponentiation.h"
+	"src ds-a/floyd-warshall.h"
+	"src ds-a/lowest-common-ancestor.h"
+	"src ds-a/trie.h"
+	"src ds-a/mo-algorithm.h"
+	"src ds-a/segment-tree-lazy-propagation.h"
+	"src ds-a/longest-increasing-subsequence.h"
+	"src ds-a/omath.h"
+
+1571222496 d:\github\datastructures-algorithms\src ds-a\segment-tree-min-max.h
+	<vector>
+	<limits>
+
+1571222496 d:\github\datastructures-algorithms\src ds-a\disjoint-set-union.h
+	<cstring>
+
+1571222496 d:\github\datastructures-algorithms\src ds-a\fenwick-tree.h
+
+1571222496 d:\github\datastructures-algorithms\src ds-a\shortest-path-dijkstra.h
+	<vector>
+	<queue>
+	<functional>
+	<utility>
+
+1571222496 d:\github\datastructures-algorithms\src ds-a\minimum-spanning-tree-kruskal.h
+	<utility>
+	<queue>
+	<vector>
+
+1571222496 d:\github\datastructures-algorithms\src ds-a\strongly-connected-components-kosaraju.h
+	<vector>
+
+1571222496 d:\github\datastructures-algorithms\src ds-a\maximum-bipartite-graph-matching.h
+	<vector>
+	<utility>
+
+1571222496 d:\github\datastructures-algorithms\src ds-a\range-minimum-query.h
+
+1571222496 d:\github\datastructures-algorithms\src ds-a\graph-dfs-bfs.h
+	<vector>
+	<queue>
+	<utility>
+
+1571222496 d:\github\datastructures-algorithms\src ds-a\tree-diameter.h
+	<vector>
+
+1571222496 d:\github\datastructures-algorithms\src ds-a\shortest-path-bellman-ford.h
+	<vector>
+	<queue>
+	<utility>
+
+1571222496 d:\github\datastructures-algorithms\src ds-a\longest-common-subsequence.h
+	<vector>
+
+1571222496 d:\github\datastructures-algorithms\src ds-a\maximum-subarray-sum.h
+
+1571222496 d:\github\datastructures-algorithms\src ds-a\graph-topological-sort.h
+	<vector>
+	<queue>
+
+1571222496 d:\github\datastructures-algorithms\src ds-a\majority-element.h
+	<vector>
+
+1571222496 d:\github\datastructures-algorithms\src ds-a\closest-points-in-a-plane.h
+	<vector>
+	<utility>
+
+1571222496 d:\github\datastructures-algorithms\src ds-a\expression-evaluation.h
+
+1571239775 d:\github\datastructures-algorithms\src ds-a\string-matching-rabin-karp.h
+	<string>
+
+1571222496 d:\github\datastructures-algorithms\src ds-a\convex-hull.h
+	<vector>
+	<algorithm>
+	<stack>
+
+1571222496 d:\github\datastructures-algorithms\src ds-a\matrix-exponentiation.h
+	<vector>
+
+1571222496 d:\github\datastructures-algorithms\src ds-a\floyd-warshall.h
+	<vector>
+
+1571222496 d:\github\datastructures-algorithms\src ds-a\lowest-common-ancestor.h
+	<vector>
+	"range-minimum-query.h"
+
+1571222496 d:\github\datastructures-algorithms\src ds-a\trie.h
+
+1571239295 d:\github\datastructures-algorithms\src ds-a\mo-algorithm.h
+	<utility>
+
+1571222496 d:\github\datastructures-algorithms\src ds-a\segment-tree-lazy-propagation.h
+
+1571239856 d:\github\datastructures-algorithms\src ds-a\longest-increasing-subsequence.h
+	<unordered_map>
+	<vector>
+	<set>
+	<utility>
+
+1571239762 d:\github\datastructures-algorithms\src ds-a\omath.h
+

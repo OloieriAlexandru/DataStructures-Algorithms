@@ -23,6 +23,7 @@ My implementation for different data structures and algorithms (C++ classes)
 
 ## Dynamic Programming:
 * Longest Common Subsequence
+* Longest Increasing Subsequence
 * Maximum Subarray Sum
 
 ## Geometry:
@@ -35,8 +36,7 @@ My implementation for different data structures and algorithms (C++ classes)
 * Rabin Karp (String Matching)
 * Expression Evaluation
 * Matrix Exponentiation
-* Mo's algorithm 
+* Mo's algorithm
+* Math algorithms 
 
 ### To be added:
-* Math algorithms
-* Longest Increasing Subsequence
