@@ -6,8 +6,8 @@
 class segmentTreeLazy
 {
 private:
-#define left (node<<1)
-#define right (node<<1|1)
+#define leftChild (node<<1)
+#define rightChild (node<<1|1)
 #define SEG_TREE_LAZY_CHECK_CREATED(ret) if (!created) return ret
 #define SEG_TREE_LAZY_ERROR 9223372036854775807LL
 #define lld long long
@@ -23,9 +23,9 @@ private:
             return;
         }
         int mid = (l + r) / 2;
-        build(left, l, mid, arr);
-        build(right, mid+1, r, arr);
-        aint[node] = aint[left]+aint[right];
+        build(leftChild, l, mid, arr);
+        build(rightChild, mid+1, r, arr);
+        aint[node] = aint[leftChild]+aint[rightChild];
     }
     void push(int node, int l, int r)
     {
@@ -34,7 +34,7 @@ private:
             lld add = r - l + 1;
             add *= lazy[node];
             if (l != r)
-                lazy[left] += lazy[node], lazy[right] += lazy[node];
+                lazy[leftChild] += lazy[node], lazy[rightChild] += lazy[node];
             aint[node] += add;
             lazy[node] = 0;
         }
@@ -47,8 +47,8 @@ private:
             return aint[node];
         lld res = 0;
         int mid = (l+r)/2;
-        res += query(left, l, mid, x, y);
-        res += query(right, mid+1, r, x, y);
+        res += query(leftChild, l, mid, x, y);
+        res += query(rightChild, mid+1, r, x, y);
         return res;
     }
     void update(int node, int l, int r, int x, int y, uint val)
@@ -64,15 +64,15 @@ private:
         {
             lld add = r - l + 1;
             add *= val;
-            lazy[left] += val;
-            lazy[right] += val;
+            lazy[leftChild] += val;
+            lazy[rightChild] += val;
             aint[node] += add;
             return;
         }
         int mid = (l + r) / 2;
-        update(left, l, mid, x, y, val);
-        update(right, mid+1, r, x, y, val);
-        aint[node] = aint[left]+aint[right];
+        update(leftChild, l, mid, x, y, val);
+        update(rightChild, mid+1, r, x, y, val);
+        aint[node] = aint[leftChild]+aint[rightChild];
     }
 public:
     segmentTreeLazy(): aint(nullptr), lazy(nullptr), created(false){}

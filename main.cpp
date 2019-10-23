@@ -25,6 +25,7 @@
 #include "src ds-a/segment-tree-lazy-propagation.h"
 #include "src ds-a/longest-increasing-subsequence.h"
 #include "src ds-a/omath.h"
+#include "src ds-a/combinatorics.h"
 using namespace std;
 
 int main()
