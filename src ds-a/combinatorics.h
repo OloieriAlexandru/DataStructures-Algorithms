@@ -63,6 +63,33 @@ namespace combinatorics
         arrangementsGenerator(0, n, m, arr, used, out);
         return true;
     }
+
+    // https://infoarena.ro/job_detail/2479598
+    void combinationsGenerator(uint k, uint n, uint m, std::vector<int>&comb, std::vector<bool>&used, std::ostream& out)
+    {
+        if (k == m)
+        {
+            for (auto x:comb) out<<x<<' ';
+            out<<'\n';
+            return;
+        }
+        int i = (k == 0 ? 1 : comb[k-1]+1);
+        for (;i<=n-m+k;++i)
+        {
+            comb[k] = i;
+            combinationsGenerator(k+1,n,m,comb,used,out);
+        }
+    }
+    bool combinations(uint n, uint m, std::ostream& out)
+    {
+        if (!n) return false;
+        std::vector<int>comb;
+        std::vector<bool>used;
+        comb.resize(m);
+        used.resize(n);
+        combinationsGenerator(0, n, m, comb, used, out);
+        return true;
+    }
 }
 
 #endif

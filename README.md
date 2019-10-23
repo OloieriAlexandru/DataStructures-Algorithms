@@ -36,7 +36,10 @@ My implementation for different data structures and algorithms (C++ classes)
 * Rabin Karp (String Matching)
 * Expression Evaluation
 * Matrix Exponentiation
-* Mo's algorithm
-* Math algorithms 
+* Mo's Algorithm
+* Math Algorithms
+* Permutations Generation
+* Arrangements Generation 
+* Combinations Generation
 
 ### To be added:
