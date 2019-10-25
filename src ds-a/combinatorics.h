@@ -90,6 +90,30 @@ namespace combinatorics
         combinationsGenerator(0, n, m, comb, used, out);
         return true;
     }
+
+    void cartesianProductGenerator(uint k, uint n, uint m, std::vector<int>&cProd, std::ostream& out)
+    {
+        if (k == m)
+        {
+            for (auto x:cProd) out<<x<<' ';
+            out<<'\n';
+            return;
+        }
+        for (int i=1;i<=n;++i)
+        {
+            cProd[k] = i;
+            cartesianProductGenerator(k+1,n,m,cProd,out);
+        }
+    }
+    bool cartesianProduct(uint n, uint m, std::ostream& out)
+    {
+        if (!n) return false;
+        std::vector<int>cProd;
+        cProd.resize(m);
+        cartesianProductGenerator(0,n,m,cProd,out);
+        return true;
+    }
+    // function call example: combinatorics::cartesianProduct(5,5,cout);
 }
 
 #endif

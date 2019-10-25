@@ -38,8 +38,7 @@ My implementation for different data structures and algorithms (C++ classes)
 * Matrix Exponentiation
 * Mo's Algorithm
 * Math Algorithms
-* Permutations Generation
-* Arrangements Generation 
-* Combinations Generation
+* Combinatorics Elements Generator
 
 ### To be added:
+* Big Numbers (Long Arithmetic)
